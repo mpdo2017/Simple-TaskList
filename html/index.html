@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Simple ToDoList</title>
+    <link rel="stylesheet" href="../css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+<div class="main">
+    <h1 class="title"> Task to be Completed </h1>
+    <span class="glyphicon glyphicon-th-list mysize"></span>
+    <h2 class="empty-state__title">Add your first task</h2>
+    <p class="empty-state__description">What do you want to accomplish today?</p>
+
+    <form id="toDoList" name="toDoList">
+        <input class="name" type="text" placeholder="Task Name">
+        <input class="description" type="text" placeholder="Description">
+        <input class="date" type="date" placeholder="Date">
+        <button id ="addTask" onclick="addNewItem(addToList)" type="submit">Add Task</button>
+    </form>
+        <div class="tasksBoard">
+            <ul id="list"></ul>
+            <button id="clearTaskBoard" onclick="deleteTaskItem()" type="submit">Clear</button>
+        </div>
+</div>
+</body>
+</html>

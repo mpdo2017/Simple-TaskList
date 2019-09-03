@@ -1,0 +1,87 @@
+.main{
+    width: 700px;
+    background-color: #8fd19e;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    border-width: thick;
+    border-style: dashed;
+    border-color: #138496;
+    border-radius: 50px;
+}
+
+.title{
+    color: black;
+    font-family: Century;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.empty-state {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+
+}
+
+span.mysize{
+    justify-content: center;
+    color: #0c5460;
+    font-size: 100px;
+}
+
+.h2{
+    font-family: Century;
+    font-size: 2px;
+    text-emphasis: #0c5460;
+    margin-bottom: 20px;
+}
+.p {
+    margin-bottom: 20px;
+    font-family: Century;
+}
+
+#form{
+    font-family: Century;
+}
+
+#addTask{
+    font-family: Century;
+    color: black;
+    font-weight: bolder;
+    background-color: slategrey;
+}
+#clearTaskBoard{
+    font-family: Century;
+    color: black;
+    font-weight: bolder;
+    background-color: slategrey;
+    align-content: center;
+}
+.tasksBoard{
+    width: 500px;
+    background-color: whitesmoke;
+    margin: 100px;
+    border-width: thick;
+    border-style: dashed;
+    border-color: #138496;
+    border-radius: 50px;
+    text-align: left;
+}
+
+
+
+ul {
+    list-style: none;
+}
+
+li {
+    border-bottom: 1px solid #53BDFF;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    font-size: 1.3em;
+    color: #2f4f4f;
+}
+
