@@ -7,8 +7,6 @@
     <link rel="stylesheet" type="text/css" href="../css/style.css">
     <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
@@ -19,15 +17,18 @@
     <p class="empty-state__description">What do you want to accomplish today?</p>
 
     <form id="toDoList" name="toDoList">
-        <input class="name" type="text" placeholder="Task Name">
-        <input class="description" type="text" placeholder="Description">
-        <input class="date" type="date" placeholder="Date">
-        <button id ="addTask" onclick="addNewItem(addToList)" type="submit">Add Task</button>
+        <input class="name" id="name" type="text" placeholder="Task Name">
+        <input class="description" id="description" type="text" placeholder="Description">
+        <input class="date" id="date" type="date" placeholder="Date">
+        <!-- change button to input with type submit if you post it to server -->
+        <button id="addTask" type="button">Add Task</button>
     </form>
-        <div class="tasksBoard">
-            <ul id="list"></ul>
-            <button id="clearTaskBoard" onclick="deleteTaskItem()" type="submit">Clear</button>
-        </div>
+    <div class="tasksBoard">
+        <ul id="taskList"></ul>
+    </div>
 </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<script src="../js/script.js"></script>
 </body>
 </html>

@@ -6,14 +6,4 @@
   <component name="ProjectRootManager" version="2" languageLevel="JDK_1_6">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
-  <component name="ScalaCompilerConfiguration">
-    <option name="deprecationWarnings" value="true" />
-    <option name="uncheckedWarnings" value="true" />
-    <option name="featureWarnings" value="true" />
-    <option name="explainTypeErrors" value="true" />
-  </component>
-  <component name="ScalaSbtSettings">
-    <option name="customLauncherPath" value="D:\Program Files (x86)\sbt\bin\sbt-launch.jar" />
-    <option name="maximumHeapSize" value="2048" />
-  </component>
 </project>
